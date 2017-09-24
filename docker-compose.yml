@@ -1,0 +1,15 @@
+version: "2"
+services:
+  nginx:
+    image: nginx:1.10.0
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/log:/var/log/nginx
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/1.html:/usr/share/nginx/html/1.html
+      - ./nginx/2.html:/usr/share/nginx/html/2.html
+      - ./nginx/3.html:/usr/share/nginx/html/3.html
+      - ./nginx/index.html:/usr/share/nginx/html/index.html
+

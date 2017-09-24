@@ -1,0 +1,8 @@
+2017/09/24 07:34:11 [emerg] 1#1: unexpected end of file, expecting "}" in /etc/nginx/nginx.conf:59
+2017/09/24 07:36:41 [emerg] 1#1: unexpected end of file, expecting "}" in /etc/nginx/nginx.conf:58
+2017/09/24 08:13:12 [error] 5#5: *1 open() "/usr/share/nginx/html/myfirstpage.com" failed (2: No such file or directory), client: 192.168.0.107, server: _, request: "GET /myfirstpage.com HTTP/1.1", host: "192.168.0.108", referrer: "http://192.168.0.108/"
+2017/09/24 08:13:12 [error] 5#5: *1 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.0.107, server: _, request: "GET /myfirstpage.com HTTP/1.1", host: "192.168.0.108", referrer: "http://192.168.0.108/"
+2017/09/24 08:16:20 [error] 5#5: *1 open() "/usr/share/nginx/html/192.168.0.108/1.html" failed (2: No such file or directory), client: 192.168.0.107, server: _, request: "GET /192.168.0.108/1.html HTTP/1.1", host: "192.168.0.108", referrer: "http://192.168.0.108/"
+2017/09/24 08:16:20 [error] 5#5: *1 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.0.107, server: _, request: "GET /192.168.0.108/1.html HTTP/1.1", host: "192.168.0.108", referrer: "http://192.168.0.108/"
+2017/09/24 08:16:53 [error] 5#5: *1 open() "/usr/share/nginx/html/192.168.0.108/1.html" failed (2: No such file or directory), client: 192.168.0.107, server: _, request: "GET /192.168.0.108/1.html HTTP/1.1", host: "192.168.0.108", referrer: "http://192.168.0.108/"
+2017/09/24 08:16:53 [error] 5#5: *1 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.0.107, server: _, request: "GET /192.168.0.108/1.html HTTP/1.1", host: "192.168.0.108", referrer: "http://192.168.0.108/"
