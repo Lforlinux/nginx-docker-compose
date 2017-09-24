@@ -1,3 +1,8 @@
-cd nginx-docker-compose
-docker-compose up -d
+## Docker build
+
+```bash
+$cd nginx-docker-compose-master 
+$docker-compose up -d
+
+```
 
