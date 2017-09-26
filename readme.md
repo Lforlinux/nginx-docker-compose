@@ -1,4 +1,4 @@
-## Docker build
+## Docker compose 
 
 ```bash
 $cd nginx-docker-compose-master 
